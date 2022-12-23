@@ -5,4 +5,5 @@ abstract class IUserService {
   Future<List<User>> online();
   //disconnecting a particular user
   Future<void> disconnect(User user);
+  
 }

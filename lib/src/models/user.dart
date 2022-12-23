@@ -1,22 +1,21 @@
-import 'package:flutter/foundation.dart';
 
 //User Class
 
 class User {
   String get id => _id;
-  String?username;
-  String? photoUrl;
+  String username;
+  String photoUrl;
   late String  _id;
-  bool? active;
-  DateTime ?lastseen;
+  bool active;
+  DateTime lastseen;
 
   User({
-    required String username,
-    required String photoUrl,
-    required bool active,
-    required DateTime lastseen
+    required this.username,
+    required this.photoUrl,
+    required this.active,
+    required this.lastseen
   }) {
-    // TODO: implement User
+    
     throw UnimplementedError();
   }
 
